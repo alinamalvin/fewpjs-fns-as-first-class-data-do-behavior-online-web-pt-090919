@@ -11,9 +11,8 @@ function handleClick(e) {
  
 function greet(time) {
   const hour = parseInt(time, 10);
-  if (hour < 12) return "Good Morning" {
-    return `${dogName} did not exercise due to rain`;
-  }
+  if (hour < 12) return "Good Morning" 
+   if (hour < 12) return "Good Morning"  
   console.log(`Wake ${dogName} the ${dogBreed}`);
   console.log(`Leash ${dogName} the ${dogBreed}`);
   console.log(`Walk to the park ${dogName} the ${dogBreed}`);
