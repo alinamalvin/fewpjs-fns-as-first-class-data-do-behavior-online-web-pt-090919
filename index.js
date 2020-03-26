@@ -8,9 +8,9 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
-let weatherToday = "Rainy";
  
-function exerciseDog(string) {
+function greet(time) {
+  const hour = parseInt(time, 10);
   if (weatherToday === "Rainy") {
     return `${dogName} did not exercise due to rain`;
   }
